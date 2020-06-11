@@ -6,6 +6,6 @@ end
 
 def count_empty_strings(array)
   array.count do |item|
-    item.eql?(" ")
+    item.eql?("")
 end
 end
